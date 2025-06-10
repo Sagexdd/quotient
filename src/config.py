@@ -34,7 +34,14 @@ TORTOISE = {
     }
 }
 
-# POSTGRESQL = {}
+POSTGRESQL = {
+    "user": "avnadmin",
+    "password": "AVNS_HfeI9yXZnDEfiIGhce9",
+    "host": "stxrz-scrimsbot.j.aivencloud.com",
+    "port": 28636,
+    "database": "defaultdb",
+    "url": "postgres://avnadmin:AVNS_HfeI9yXZnDEfiIGhce9@stxrz-scrimsbot.j.aivencloud.com:28636/defaultdb",
+}
 
 EXTENSIONS = [
     "cogs.events", 
