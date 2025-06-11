@@ -2,7 +2,7 @@
 
 TORTOISE = {
     "connections": {
-        "default": "sqlite://db.sqlite3",  # Change to PostgreSQL/MySQL if needed
+        "default": "postgres://avnadmin:AVNS_HfeI9yXZnDEfiIGhce9@stxrz-scrimsbot.j.aivencloud.com:28636/defaultdb",  # Change to PostgreSQL/MySQL if needed
     },
     "apps": {
         "models": {
